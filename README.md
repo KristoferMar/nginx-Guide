@@ -104,7 +104,7 @@ This enables us to personalize logging very much for different kinds of access t
 ##### Example
 
 ## PHP Processing
-
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/08%2BPHP%2BProcessing.conf
 ## Worker Processing
 ##### Example
 
