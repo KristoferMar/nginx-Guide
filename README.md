@@ -64,7 +64,7 @@ Example of how to make conditition in conf file using variables
     }
 </pre>
 
-Example
+##### Example
 
 
 ### Create your own variable
@@ -77,11 +77,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 - Redirects redirects the user based on a uri.
 
-Example
+##### Example
 
 
 ## Try Files & Named Locations 
-Example
+##### Example
 
 ### try_files
 It's a directive that enables us to check of vailable uri paths and foces a redirect to that uri path if it exists.
@@ -92,7 +92,7 @@ http://nginx.org/en/docs/http/ngx_http_log_module.html
 
 https://docs.nginx.com/nginx/admin-guide/monitoring/logging/
 
-Example 
+##### Example 
 
 ### access_log
 It's a directive that can be put inside of contexts to log specific location (uri) accesses etc.
@@ -101,12 +101,12 @@ This enables us to personalize logging very much for different kinds of access t
 
 
 ## Inheritance and directives
-Explained here: 
+##### Example
 
 ## PHP Processing
 
 ## Worker Processing
-Example:
+##### Example
 
 ## Buffers & Timeouts
 http://nginx.org/en/docs/syntax.html
