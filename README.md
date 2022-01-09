@@ -65,7 +65,7 @@ Example of how to make conditition in conf file using variables
 </pre>
 
 ##### Example
-
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/03%2BVariables.conf
 
 ### Create your own variable
 <pre>set $weekend 'No';</pre>
@@ -78,10 +78,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 - Redirects redirects the user based on a uri.
 
 ##### Example
-
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/04%2BRewrites%2B%26%2BRedirects.conf
 
 ## Try Files & Named Locations 
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/05%2BTry%2BFiles%2B%26%2BNamed%2BLocations.conf
 
 ### try_files
 It's a directive that enables us to check of vailable uri paths and foces a redirect to that uri path if it exists.
@@ -93,6 +94,7 @@ http://nginx.org/en/docs/http/ngx_http_log_module.html
 https://docs.nginx.com/nginx/admin-guide/monitoring/logging/
 
 ##### Example 
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/06%2BLogging.conf
 
 ### access_log
 It's a directive that can be put inside of contexts to log specific location (uri) accesses etc.
@@ -102,36 +104,51 @@ This enables us to personalize logging very much for different kinds of access t
 
 ## Inheritance and directives
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/07%2BInheritince%2B%26%2BDirective%2BTypes.conf
 
 ## PHP Processing
+##### Example
 https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/08%2BPHP%2BProcessing.conf
 ## Worker Processing
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/09%2BWorker%2BProcesses.conf
 
 ## Buffers & Timeouts
 http://nginx.org/en/docs/syntax.html
 
-Example:
+##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/10%2BBuffers%2B%26%2BTimeouts.conf
 
 ## Dynamic modules
 http://nginx.org/en/docs/http/ngx_http_image_filter_module.html
 
-Example:
+##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/11%2BAdding%2BDynamic%2BModules.conf
 
 # Performance
-
 ## Headers & Expires
-Example: 
+##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/12%2BHeaders%2B%26%2BExpires.conf
 
 ## Compressed Responses with gzip
-Example:
-
-## HTTP2
-Example:
+##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/13%2BCompressed%2BResponses%2Bwith%2Bgzip.conf
 
 ## FastCGI Cache
-Example:
+http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html
 
+https://httpd.apache.org/docs/2.4/programs/ab.html
+##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/14%2BFastCGI%2BCache.conf
+
+## HTTP2
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
+##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/15%2BHTTP2.conf
+
+## Server Push 
+
+##### Example
 
 # Security
 ## HTTPS (SSL)
@@ -140,21 +157,23 @@ https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
 
 https://hackernoon.com/algorithms-explained-diffie-hellman-1034210d5100
 
-Example here:
+##### Example
 
 ## Rate Limiting
 - Security 
 - Reliability 
 - Shaping
 
+##### Example
+
 ## Basic Auth 
-Example:
+##### Example
 
 # Hardning Nginx
 - Disable IFrame availability
 - Block cross site scripting
 
-Example:
+##### Example
 
 ## SSH
 
