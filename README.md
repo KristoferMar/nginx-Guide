@@ -147,8 +147,8 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl
 https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/15%2BHTTP2.conf
 
 ## Server Push 
-
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/16%2BServer%2BPush.conf
 
 # Security
 ## HTTPS (SSL)
@@ -158,28 +158,28 @@ https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
 https://hackernoon.com/algorithms-explained-diffie-hellman-1034210d5100
 
 ##### Example
-
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/17%2BHTTPS%2B(SSL).conf
 ## Rate Limiting
 - Security 
 - Reliability 
 - Shaping
 
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/18%2BRate%2BLimiting.conf
 
 ## Basic Auth 
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/19%2BBasic%2BAuth.conf
 
 # Hardning Nginx
 - Disable IFrame availability
 - Block cross site scripting
-
 ##### Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/20%2BHardening%2BNginx.conf
 
 ## SSH
-
 Good to know: 
 - "Let's encrypt" and other providers dont provide certificates for ip adresses - Only valid url domains.
-
 ## Install Certificate
 https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal
 
