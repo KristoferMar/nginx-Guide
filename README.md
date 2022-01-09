@@ -45,7 +45,7 @@ Exact match is when it matches only the exact uri. this is done with
 Regex match is when uri includes a regex for a broader match. Regex match is case sensative.
 <pre>location ~* /greet[0-9] { ... }</pre>
 
-#### Example
+##### Example
 
 https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/02%2BLocation%2BBlocks.conf
 
