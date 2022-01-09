@@ -25,6 +25,7 @@ Full confuguration source
 
 ## Creating A Virtual Host
 Example 
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/01%2BCreating%2Ba%2BVirtual%2BHost.conf
 
 ## Location (context)
 It's used for defining behaviour for specific uri or requests. 
@@ -45,6 +46,7 @@ Regex match is when uri includes a regex for a broader match. Regex match is cas
 <pre>location ~* /greet[0-9] { ... }</pre>
 
 Example
+https://github.com/KristoferMar/nginx-Guide/blob/main/Examples/02%2BLocation%2BBlocks.conf
 
 ## Variables
 http://nginx.org/en/docs/varindex.html
